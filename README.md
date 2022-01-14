@@ -8,15 +8,15 @@ Users will be required to have a wallet set up that communicates with the Algora
 
 #### Ensure that it contains minimum funds
 
-YNFT offers three major transactional services: buying, minting, and selling. Each requires a minimum fee to be in a user's wallet
+Our platform offers three major transactional services: buying, minting, and selling. Each one requires a minimum fee to be in a user's wallet.
 
-- Selling: Including Algorand’s fees, users will have to have a minimum of 0.659 ALGO in their wallet to list an item for sale.
-- Minting: There is no current minting fee
+- Selling: Users will have to have a minimum of 1 ALGO in their wallet to list an item for sale.
+- Minting: There is no minting cost other than Algorand’s transaction fee of 0.001 ALGO
 - Buying: The asking price of a buyer or the reserve fee of an auction\*
 
-#### Connect the wallet to YNFT
+#### Connect the wallet to the platform
 
-Once the wallet is set up users may connect to YNFT by signing in at the top right corner. They may log out any time and change wallets at their leisure.
+Once the wallet is set up users may connect to the platform by signing in at the top right corner. They may log out any time and change wallets at their leisure.
 
 </div>
 
@@ -31,9 +31,9 @@ Users can leverage the discovery section - [https://ynft.club/discover](https://
 
 </div>
 
-<div faq="Where can I learn more about Algorand’s NFT ecosystem?">
+<div faq="Where can I find NFTs to acquire?">
 
-#### Where can I find NFTs to acquire?
+#### 
 
 Users can find available NFTs under YNFTs ‘Buy’ tab - [https://ynft.club/buy?type=live](https://ynft.club/buy?type=live) .
 
@@ -47,9 +47,9 @@ Helped by the implementation of various filters, users can both bid and buy.
 
 <div faq="How can I buy an NFT?">
 
-All buyers will be required to hold ALGO in a compatible wallet. Once done explore -
+All buyers will be required to hold ALGO in a compatible wallet. Once done explore, please explore!
 
-ALGO can be acquired through an exchange and then transferred to one of the following wallets: My Algo Wallet, Algorand Wallet and Algo Signer.
+ALGO can be acquired through an exchange and then transferred to one of the following wallets: My Algo Wallet, Algorand Wallet or Algo Signer.
 
 </div>
 
@@ -67,13 +67,23 @@ All auction listers have the right to indicate a reserve price. This means that 
 
 <div faq="How can I learn more about the NFT I intend to buy?">
 
-Whilst in an active listing, users can click on the arrow pointing to the image of the NFT. The following site contains useful information such as: the creator, embedded royalties and the quantity in circulation.
+Whilst in an active listing, users can click on the arrow pointing to the image of the NFT. The page that proceeeds contains useful information such as: the creator, embedded royalties and the quantity in circulation.
 
 </div>
 
-<div faq="How can I learn more about the NFT I intend to buy?">
+<div faq="I have been outbid, but my bid has not returned to my wallet. Why does this occur?">
 
-Whilst in an active listing, users can click on the arrow pointing to the image of the NFT. The following site contains useful information such as: the creator, embedded royalties and the quantity in circulation.
+Bids are refunded to a user’s wallet balance immediately as a higher bid is placed. However, these refunded amounts are not displayed on a wallet’s transaction history. 
+
+Note: This is due to RandLabs' AlgoExplorer. They do not show "inner transactions", which is what Reach contracts use.
+
+</div>
+
+<div faq="I have purchased an NFT using the ‘Buy Now Function’ and it does not show in my wallet’s transaction history. What should I do?">
+
+All purchased NFTs will transfer immediately to the buyer. Buyers can be assured of this by searching for the purchased asset’s ID in AlgoExplorer - https://algoexplorer.io/ . Here, they may check under the ‘Holders’ tab to find that they own the purchased asset.
+
+Note: The transfer of assets may not be displayed on a wallet’s transaction history, this is due to RandLabs' AlgoExplorer. They do not show "inner transactions", which is what the platform’s contracts use.
 
 </div>
 
@@ -81,35 +91,35 @@ Whilst in an active listing, users can click on the arrow pointing to the image 
 
 <div faq="How can I sell an NFT?">
 
-The seller must ensure that the NFT they wish to sell is in the wallet connected to YNFT and navigate to - [https://ynft.club/sell](https://ynft.club/sell).
+The seller must ensure that the NFT they wish to sell is in the wallet connected to the platform and navigate to - [https://ynft.club/sell](https://ynft.club/sell).
 
-The seller confirms which method of sale they prefer - auction or fixed price. Once confirmed, they select their NFT from the drop down list and fill out the corresponding sale details.
+The seller confirms which method of sale they prefer - 'Auction' or 'Fixed Price'. Once confirmed, they select their NFT from the drop down list and fill out the corresponding sale details.
 
-Finally, they may click Sell NFT and sign the associated transactions that YNFT prompts.
+Finally, they may click 'Sell NFT' and sign the associated transactions the platform prompts.
 
 </div>
 
 <div faq="What happens once I list an item for sale?">
 
-The seller signs a contract that transfers their NFT to a secure YNFT wallet. There it will stay until an auction ends or it is purchased.
+The seller signs a contract that transfers their NFT to a secure platform wallet. There it will stay until an auction ends, it is purchased or the seller closes the Buy Now application.
 
 </div>
 
 <div faq="Can I edit my auction details?">
 
-No. Once the smart contracts and auction details have been finalized, the asset is sent to a YNFT wallet for the duration of the listing.
+No. Once the smart contracts and auction details have been finalized, the asset is sent to a platform wallet for the duration of the listing.
 
 </div>
 
 <div faq="What should I do if I no longer want my NFT to be sold or listed?">
 
-All sellers should be certain of their conditions and preferences of sale before they list. Due to the nature of the blockchain structure, sellers are unable to update preferences until YNFT permits.
+If you no longer want your NFT to be listed, you may go to the active listing and click ‘Close Buy Now’.
 
 </div>
 
 <div faq="The auction period has finished with no bidders, how may I retrieve my NFT?">
 
-The seller receives their NFT back by clicking ‘close auction’ on the auction page.
+The seller receives their NFT back by clicking ‘Close Auction’ on the auction page.
 
 </div>
 
@@ -150,21 +160,21 @@ Yes. In the minting process artists can decide what percentage of the selling pr
 
 </div>
 
-<div faq="What fees should I consider when selling?">
+<div faq="What fees should I consider when using the platform?">
 
-To create a listing, users pay a negligible listing fee of 0.658 ALGO and Algorand’s additional 0.001 transaction cost.
+All users should be ready to pay the Algorand fees associated with all the transactions included in the minting, selling and buying process.
 
-If successfully sold, the seller receives the ALGO sale price, their listing fee back and pays a 2.5% fee to YNFT.
+Sellers should be aware that to create a listing, they must pay a negligible listing fee of 0.658 ALGO. If sellers successfully sell an NFT, they receive their sale price and a percentage of their listing fee back whilst paying a 2.5% fee to the platform.
 
 </div>
 
-## Royalty and Fee breakdown
+## Getting involved with the community
 
 <div faq="Can I get my personally minted NFT collection featured on the discovery page?">
 
 Yes!
 
-To go through the verification process follow the link - [https://www.nftexplorer.app/verification](https://www.nftexplorer.app/verification). Once verified, your work will be showcased.
+To go through the verification process follow the link - [https://www.nftexplorer.app/verification](https://www.nftexplorer.app/verification). Once verified, your work will be showcased in the discoery section.
 
 </div>
 
@@ -184,12 +194,22 @@ Follow Yieldly’s various social channels to get the latest updates:
 
 <div faq="Whilst listing for a sale I have received the message ‘Application has failed to create’?">
 
-Firstly, double check the recent listings as the listing may have gone through.
+Firstly, double check the recent listings of the 'Buy' secrtion - https://ynft.club/buy?type=buy - as the listing may have processed.
 
-pop-ups are allowed in your browser (can be enabled in the top right of your screen), so all the suitable transactions can be signed.
+Ensure pop-ups are allowed in your browser (can be enabled in the top right of your screen), so all the suitable transactions can be signed.
 
 </div>
 
-<div faq="For additional troubleshooting support, please contact xxxxxxxxxxx.">
+<div faq="Can I connect my creator wallet and my personal wallet?">
+
+Yes. The platform allows the connection to more than one wallet. Users can buy or sell from different wallets at the same time.
+
+</div>
+
+<div faq="For additional troubleshooting support, please reach out to our support channel">
+  
+Support email: support@yieldly.finance 
+
+</div>
 
 </div>
