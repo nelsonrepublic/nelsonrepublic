@@ -200,12 +200,6 @@ Ensure pop-ups are allowed in your browser (can be enabled in the top right of y
 
 </div>
 
-<div faq="Can I connect my creator wallet and my personal wallet?">
-
-Yes. The platform allows the connection to more than one wallet. Users can buy or sell from different wallets at the same time.
-
-</div>
-
 <div faq="For additional troubleshooting support, please reach out to our support channel">
   
 Support email: support@yieldly.finance 
