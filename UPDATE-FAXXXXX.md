@@ -11,8 +11,8 @@ Users will be required to have a wallet set up that communicates with the Algora
 Our platform offers three major transactional services: buying, minting, and selling. Each one requires a minimum fee to be in a user's wallet.
 
 - Selling: Users will have to have a minimum of 1 ALGO in their wallet to list an item for sale.
-- Minting: There is no minting cost other than Algorand’s transaction fee of 0.001 ALGO
-- Buying: The asking price of a buyer or the reserve fee of an auction\*
+- Minting: There is no minting cost other than Algorand’s transaction fee of 0.001 ALGO.
+- Buying: The asking price of a buyer or the reserve fee of an auction.
 
 #### Connect the wallet to the platform
 
@@ -73,9 +73,9 @@ Whilst in an active listing, users can click on the arrow pointing to the image 
 
 <div faq="I have been outbid, but my bid has not returned to my wallet. Why does this occur?">
 
-Bids are refunded to a user’s wallet balance immediately as a higher bid is placed. However, these refunded amounts are not displayed on a wallet’s transaction history. 
+Rest assured, bids are refunded to a user’s wallet balance as soon as a higher bid is placed. However, these refunded amounts are not displayed in a wallet’s transactions. 
 
-Note: This is due to RandLabs' AlgoExplorer. They do not show "inner transactions", which is what Reach contracts use.
+Note: This is due to RandLabs' AlgoExplorer. They do not show 'inner transactions', which is what the plaform's contracts use.
 
 </div>
 
@@ -83,7 +83,7 @@ Note: This is due to RandLabs' AlgoExplorer. They do not show "inner transaction
 
 All purchased NFTs will transfer immediately to the buyer. Buyers can be assured of this by searching for the purchased asset’s ID in AlgoExplorer - https://algoexplorer.io/ . Here, they may check under the ‘Holders’ tab to find that they own the purchased asset.
 
-Note: The transfer of assets may not be displayed on a wallet’s transaction history, this is due to RandLabs' AlgoExplorer. They do not show "inner transactions", which is what the platform’s contracts use.
+Note: The transfer of assets may not be displayed on a wallet’s transactions because of the current iteration of RandLabs' AlgoExplorer. They do not show "inner transactions", which is what the platform’s contracts use.
 
 </div>
 
@@ -197,6 +197,12 @@ Follow Yieldly’s various social channels to get the latest updates:
 Firstly, double check the recent listings of the 'Buy' secrtion - https://ynft.club/buy?type=buy - as the listing may have processed.
 
 Ensure pop-ups are allowed in your browser (can be enabled in the top right of your screen), so all the suitable transactions can be signed.
+
+</div>
+
+<div faq="While listing, I have tried to search for an NFT by name  yet the site returns ‘No assets found!’. What can I do?">
+  
+Users must wait till the platform indexer has loaded their assets before attempting to search for specific NFTs by name.
 
 </div>
 
