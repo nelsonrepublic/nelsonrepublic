@@ -210,6 +210,7 @@ Users must wait till the platform indexer has loaded their assets before attempt
   
 Support email: support@yieldly.finance 
 
+
 </div>
 
 </div>
