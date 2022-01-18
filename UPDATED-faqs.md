@@ -35,7 +35,7 @@ Users can leverage the discovery section - [https://ynft.club/discover](https://
 
 #### 
 
-Users can find available NFTs under YNFTs ‘Buy’ tab - [https://ynft.club/buy?type=live](https://ynft.club/buy?type=live) .
+Users can find available NFTs under the marketplace's ‘Buy’ tab - [https://ynft.club/buy?type=live](https://ynft.club/buy?type=live) .
 
 Helped by the implementation of various filters, users can both bid and buy.
 
